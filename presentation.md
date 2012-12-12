@@ -58,7 +58,7 @@ Databases ...
 
 !
 
-## Command line basics ##
+## Command line basics 1 ##
 
 cd, pwd
 
@@ -67,6 +67,10 @@ ls
 find
 
 which
+
+!
+
+## Command line basics 2 ##
 
 grep
 
@@ -113,10 +117,6 @@ Config files
 !
 
 ## Features - list, diff, revert, update ##
-
-!
-
-# BREAK #
 
 !
 
