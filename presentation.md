@@ -3,9 +3,6 @@
 Global Drupal Training Day  
 14 December 2012
 
-Claudine Chionh  
-claudine@chionh.org
-
 This presentation:  
 http://j.mp/drush-intro
 
@@ -73,4 +70,7 @@ http://j.mp/drush-intro
 
 # Where to next? #
 
-drush.org
+http://drush.org
+
+Claudine Chionh  
+claudine@chionh.org
