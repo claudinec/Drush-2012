@@ -12,13 +12,13 @@ http://j.mp/drush-intro
 
 Developer at Moat Media
 
-Using Drupal since ? 2007
+Drupal user since ? 2007
 
 Linux user since 1999
 
-Command line user since 1994
+Unix command line user since 1994
 
-Favourite text editor: VIM
+Favourite text editor: VI[M]
 
 !
 
