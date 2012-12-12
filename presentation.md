@@ -126,6 +126,8 @@ Config files
 
 # Where to next? #
 
+http://drupal.org/documentation/modules/drush
+
 http://drush.org
 
 Claudine Chionh  
