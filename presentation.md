@@ -1,4 +1,4 @@
-# Introduction to Drush #
+# Introduction to Drush
 
 Global Drupal Training Day  
 14 December 2012
@@ -8,7 +8,7 @@ http://bit.ly/drush-intro
 
 !
 
-## Who am I? ##
+## Who am I?
 
 Developer at Moat Media
 
@@ -22,7 +22,7 @@ Not familiar with Windows!
 
 !
 
-## Who are you? ##
+## Who are you?
 
 Drupal?
 
@@ -32,7 +32,7 @@ Command line?
 
 !
 
-# Drush basics #
+## Drush basics
 
 Command-line PHP script
 
@@ -40,11 +40,7 @@ Administer a Drupal site from the command line
 
 !
 
-## Why Drush is awesome ##
-
-!
-
-# Getting started with Drush #
+## Getting started with Drush
 
 Requirements:
 
@@ -53,7 +49,7 @@ Requirements:
 
 !
 
-## Command line basics 1 ##
+### Command line basics 1
 
 cd, pwd
 
@@ -65,7 +61,7 @@ which
 
 !
 
-## Command line basics 2 ##
+### Command line basics 2
 
 grep
 
@@ -75,7 +71,7 @@ unzip, gunzip, tar
 
 !
 
-## Installation and setup ##
+### Installation and setup
 
 http://drupal.org/project/drush
 
@@ -87,13 +83,13 @@ Config files
 
 !
 
-# Help! #
+## Help!
 
 `drush help [command]`
 
 !
 
-# Common Drush scenarios #
+## Common Drush scenarios
 
 Maintaining an existing Drupal site
 
@@ -101,13 +97,13 @@ Use Drush Make to build a site with a makefile and optional installation profile
 
 !
 
-## Download a module or theme ##
+### Download a module or theme
 
 `drush dl`
 
 !
 
-## Enable and disable modules, themes, and features ##
+### Enable and disable modules, themes, and features
 
 `drush en`
 
@@ -115,25 +111,25 @@ Use Drush Make to build a site with a makefile and optional installation profile
 
 !
 
-## Update the database ##
+### Update the database
 
 `drush updb`
 
 !
 
-## Install all available updates ##
+### Install all available updates
 
 `drush up`
 
 !
 
-## Backup and migrate ##
+### Backup and migrate
 
 `drush bam-backup ...`
 
 !
 
-## Features #
+### Features
 
 `drush fl`
 
@@ -145,7 +141,7 @@ Use Drush Make to build a site with a makefile and optional installation profile
 
 !
 
-# Drush Make #
+## Drush Make
 
 `drush make <makefile>`
 
@@ -157,11 +153,11 @@ Use for repeating common scenarios
 
 !
 
-## Example makefile ##
+### Example makefile
 
 !
 
-## Installation profiles ##
+### Installation profiles
 
 Makefile and other components that can be bundled with core Drupal as a distribution.
 
@@ -169,7 +165,7 @@ Example ...
 
 !
 
-# Where to next? #
+## Where to next?
 
 http://drupal.org/documentation/modules/drush
 
