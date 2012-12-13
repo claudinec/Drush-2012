@@ -4,7 +4,7 @@ Global Drupal Training Day
 14 December 2012
 
 This presentation:  
-http://j.mp/drush-intro
+http://bit.ly/drush-intro
 
 !
 
@@ -18,7 +18,7 @@ Linux user since 1999
 
 Unix command line user since 1994
 
-Favourite text editor: VI[M]
+Not familiar with Windows!
 
 !
 
@@ -46,15 +46,10 @@ Administer a Drupal site from the command line
 
 # Getting started with Drush #
 
-!
+Requirements:
 
-## Requirements ##
-
-Drupal versions ...
-
-PHP versions ...
-
-Databases ...
+- A Drupal site
+- Command-line access on local machine or on the server (usually via ssh)
 
 !
 
@@ -86,45 +81,89 @@ http://drupal.org/project/drush
 
 Use PEAR (PHP repository)
 
-Use a package manager (Homebrew, MacPorts, Apt ...) - may be out of date
-
 Manual installation
 
 Config files
 
 !
 
+# Help! #
+
+drush help [command]
+
+!
+
 # Common Drush scenarios #
+
+Maintaining an existing Drupal site
+
+Use Drush Make to build a site with a makefile and optional installation profile - later in this session
 
 !
 
 ## Download a module or theme ##
 
+drush dl
+
 !
 
 ## Enable and disable modules, themes, and features ##
+
+drush en
+
+drush dis
 
 !
 
 ## Update the database ##
 
+drush updb
+
 !
 
 ## Install all available updates ##
+
+drush up
 
 !
 
 ## Backup and migrate ##
 
+drush bam-backup ...
+
 !
 
 ## Features - list, diff, revert, update ##
+
+drush fl
+
+drush fd <feature>
+
+drush fr <feature>
+
+drush fu <feature>
 
 !
 
 # Building a site with Drush Make #
 
+drush make <makefile>
+
+Makefile - recipe for compiling a program or building a website
+
+Include contrib and custom modules, libraries, themes
+
+Use for repeating common scenarios
+
 !
+
+## Example makefile ##
+
+## Installation profiles ##
+
+Makefile and other components that can be bundled with core Drupal as a distribution.
+
+Example ...
 
 # Where to next? #
 
@@ -134,3 +173,4 @@ http://drush.org
 
 Claudine Chionh  
 claudine@chionh.org
+
