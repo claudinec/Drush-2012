@@ -89,7 +89,7 @@ Config files
 
 # Help! #
 
-drush help [command]
+`drush help [command]`
 
 !
 
@@ -103,53 +103,53 @@ Use Drush Make to build a site with a makefile and optional installation profile
 
 ## Download a module or theme ##
 
-drush dl
+`drush dl`
 
 !
 
 ## Enable and disable modules, themes, and features ##
 
-drush en
+`drush en`
 
-drush dis
+`drush dis`
 
 !
 
 ## Update the database ##
 
-drush updb
+`drush updb`
 
 !
 
 ## Install all available updates ##
 
-drush up
+`drush up`
 
 !
 
 ## Backup and migrate ##
 
-drush bam-backup ...
+`drush bam-backup ...`
 
 !
 
-## Features - list, diff, revert, update ##
+## Features #
 
-drush fl
+`drush fl`
 
-drush fd <feature>
+`drush fd <feature>`
 
-drush fr <feature>
+`drush fr <feature>`
 
-drush fu <feature>
+`drush fu <feature>`
 
 !
 
-# Building a site with Drush Make #
+# Drush Make #
 
-drush make <makefile>
+`drush make <makefile>`
 
-Makefile - recipe for compiling a program or building a website
+Recipe for compiling a program or building a website
 
 Include contrib and custom modules, libraries, themes
 
@@ -159,11 +159,15 @@ Use for repeating common scenarios
 
 ## Example makefile ##
 
+!
+
 ## Installation profiles ##
 
 Makefile and other components that can be bundled with core Drupal as a distribution.
 
 Example ...
+
+!
 
 # Where to next? #
 
