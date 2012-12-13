@@ -82,9 +82,11 @@ unzip, gunzip, tar
 
 ## Installation and setup ##
 
+http://drupal.org/project/drush
+
 Use PEAR (PHP repository)
 
-Use a package manager (Homebrew, MacPorts, Apt ...)
+Use a package manager (Homebrew, MacPorts, Apt ...) - may be out of date
 
 Manual installation
 
@@ -125,8 +127,6 @@ Config files
 !
 
 # Where to next? #
-
-http://drupal.org/project/drush
 
 http://drupal.org/documentation/modules/drush
 
