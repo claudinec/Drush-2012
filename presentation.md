@@ -34,6 +34,8 @@ Command line?
 
 ## Drush basics
 
+http://drupal.org/project/drush
+
 Command-line PHP script
 
 Administer a Drupal site from the command line
@@ -72,8 +74,6 @@ unzip, gunzip, tar
 !
 
 ### Installation and setup
-
-http://drupal.org/project/drush
 
 Use PEAR (PHP repository)
 
@@ -153,15 +153,9 @@ Use for repeating common scenarios
 
 !
 
-### Example makefile
-
-!
-
 ### Installation profiles
 
 Makefile and other components that can be bundled with core Drupal as a distribution.
-
-Example ...
 
 !
 
